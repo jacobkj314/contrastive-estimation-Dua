@@ -6,7 +6,7 @@ import json
 from torch import nn
 import torch.nn.functional as F
 from itertools import product
-from scripts.script_utils import sample_sequences_v2, generate_beam_search
+#from scripts.script_utils import sample_sequences_v2, generate_beam_search # VSCode suggests I can safely comment this out, it appears to refer to a directory that was removed from the Main github repo and isn't used here, as far as I can tell
 from transformers import T5ForConditionalGeneration
 
 class ContrastiveEstimationFullPartition(T5ForConditionalGeneration):
