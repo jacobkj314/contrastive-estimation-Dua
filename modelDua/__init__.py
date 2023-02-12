@@ -1,1 +1,1 @@
-import .contrastive_models
+import contrastive_models
